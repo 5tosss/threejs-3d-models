@@ -1,9 +1,8 @@
-import * as THREE from './libs/three/three.module.js';
-import { FBXLoader } from './libs/three/examples/jsm/loaders/FBXLoader.js';
-import { OrbitControls } from './libs/three/examples/jsm/controls/OrbitControls.js';
-import Stats from './libs/three/examples/jsm/libs/stats.module.js';
-import { GUI } from './libs/three/examples/jsm/libs/lil-gui.module.min.js';
-
+import * as THREE from '../node_modules/three/build/three.module.js';
+import { FBXLoader } from '../node_modules/three/examples/jsm/loaders/FBXLoader.js';
+import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
+import Stats from '../node_modules/three/examples/jsm/libs/stats.module.js';
+import { GUI } from '../node_modules/three/examples/jsm/libs/lil-gui.module.min.js';
 
 const manager = new THREE.LoadingManager();
 
